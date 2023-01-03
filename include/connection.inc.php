@@ -16,8 +16,4 @@ catch (Exception $e)
      echo "<div class='alert alert-danger'>$error</div>";
 }
 
-/*
-
-$db = new PDO('mysql:host=127.0.0.1:8889;dbname=photoforyou2','root','root');
-  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
-  $manager = new UserManager($db);*/
+  

@@ -9,7 +9,6 @@ if (isset($_POST['valider']))
 }
 
 ?>
-
  
 	<div class="container">
     <?php echo generationEntete("Inscription", "Merci de remplir ce formulaire d'inscription.") ?>

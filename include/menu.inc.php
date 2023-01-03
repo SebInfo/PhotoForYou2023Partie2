@@ -11,18 +11,18 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html">Photos</a>
-                    <div class="dropdown-menu">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html">Photos</a>
+                <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Acheter</a>
                     <a class="dropdown-item" href="#">Vendre</a>
                     <a class="dropdown-item" href="#">Les plus populaires</a>
                     <a class="dropdown-item" href="#">Les nouveautés</a>
-                    </div>
-                </li>
-        <li class="nav-item">
-                <a class="nav-link" href="#">Tarifs</a>
-        </li>
+                </div>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Tarifs</a>
+            </li>
         </ul>
 
         <!-- formulaire de recherche -->
