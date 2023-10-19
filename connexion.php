@@ -22,7 +22,7 @@ if (isset($_POST['identifier']))
 
 ?>
 	<div class="container">
-  <?php echo generationEntete("Connexion", "Merci de vous identifier") ?>
+  <?php echo generationEntete("Connexion ", "Merci de vous identifier") ?>
     <div class="jumbotron">
     <form method="post" id="formId"  novalidate>
       <div class="form-group row">
