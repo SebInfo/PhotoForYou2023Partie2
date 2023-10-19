@@ -2,7 +2,7 @@
 include ("include/entete.inc.php");
 if (isset($_POST['valider']))
 {
-  // a securiser
+  // à securiser (filtration des données avant ajout dans la BDD)
   $user = new User(['Nom' => $_POST['nom'], 'Prenom' => $_POST['prenom'], 'Mail' => $_POST['mail'], 'Mdp' => $_POST['motdepasse1'],  'Type' => $_POST['choixType']]); 
   $manager->add($user);
   header('Location: inscriptionOK.php'); 

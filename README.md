@@ -50,7 +50,7 @@ Il sera donc important de se démarquer de ces concurrents en se basant sur la n
 - Mise en place automatique d’un filigrane lors de la mise en ligne de photo.
 Le photographe fixe le prix de vente en nombre de crédit. (minimum 2 crédits-maximum 100 crédits)
 - Les photos sont en vente de manière exclusive (un seul achat après retrait du catalogue)
-- L’achat se fait à partir de crédits que l’on doit acheter.  (1 crédit = 5 euros)
+- L’achat se fait à partir de crédits que l’on doit acheter. (1 crédit = 5 euros)
 
 ### Planning & coût
 
