@@ -13,7 +13,7 @@ Il sert de base de travail pour aborder les concepts nécessaires au programme.
 La société **AtelierLumière** est un laboratoire photographique professionnel situé à Paris (14ème arrondissement) et créé en 2006. Composé d’une équipe de quatre personnes : *Flippo Raverdi* (dirigeant et photographe), *Sophie Pierre* (partie administrative), *Jean-Marc Tomé et Bernard Guillaume* (retouches et tirages). 
 **AtelierLumière** est spécialisé dans le tirage photographique et la retouche pour les professionnels. (Tirages lors d’expositions, retouches pour des magazines...)
 Ses principales activités sont les suivantes :
-* numérisation de tout support
+* numérisation de tout support 
 * développement de fichiers RAW
 * la retouche créative
 * Le tirage jet d’encre d’exposition et l’épreuvage
