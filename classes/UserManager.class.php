@@ -15,7 +15,7 @@ class UserManager
 		$q->bindValue(':prenom', $user->getPrenom());
 		$q->bindValue(':type', $user->getType());
 		$q->bindValue(':mail', $user->getMail());
-		$q->bindValue(':mdp', $user->getMdp());
+		$q->bindValue(':mdp', md5($user->getMdp()));
 
 		$q->execute();
 
