@@ -46,7 +46,7 @@ class UserManager
 	public function exists($mailUser, $mdpUser)
 	{
 		$q= $this->_db->prepare('SELECT COUNT(*) FROM users WHERE mail = :mail AND mdp = :mdp');
-		$q->execute([':mail'=> $mailUser, ':mdp'=> $mdpUser]);
+		$q->execute([':mail'=> $mailUser, ':mdp'=> md5($mdpUser)]);
 		return (bool) $q->fetchColumn();
 	}
 

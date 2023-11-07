@@ -5,7 +5,7 @@ if (isset($_POST['identifier']))
   if ($utilisateur=$manager->getUser($_POST['mail']))
   {
 
-    if ($utilisateur->getMdp() == $_POST['motdepasse'])
+    if ($utilisateur->getMdp() == md5($_POST['motdepasse']))
     {
       session_start ();
       $_SESSION['login'] = true;
